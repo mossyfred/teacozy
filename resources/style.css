@@ -22,7 +22,9 @@ a  {
   color: seashell;
 }
 
-
+h2, h4 {
+  padding: 10px;
+}
 
 .main-container {
   display: flex;
@@ -38,21 +40,41 @@ a  {
 .main-textbox {
   background-color: black;
   width: 1200px;
-
 }
 
-#featured-tea {
+.featured-tea {
   display: block;
-  flex direction: column;
+  padding-top: 70px;
+
+}
+
+# pain .image-group {
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
-  text-align: center;
 
 }
 
-.header-textbox {
-  width: 1000px
+.locations {
+  display: block;
+  background-image: url(./images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+
 }
 
-.image-group {
-  width: 200px;
+.textbox-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.textbox {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
 }
