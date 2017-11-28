@@ -52,8 +52,6 @@ h2, h4, h3 {
   display: block;
   flex-direction: row;
   justify-content: space-between;
-
-
 }
 
 .locations {
@@ -91,4 +89,13 @@ h2, h4, h3 {
 
 span {
   margin: 22px 0px;
+}
+
+.contact {
+  heigth: 500px;
+}
+
+.footer{
+    display: flex;
+
 }
