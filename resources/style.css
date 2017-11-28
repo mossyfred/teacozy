@@ -16,12 +16,13 @@ body {
     align-items: center;
     border-bottom: 1px solid seashell;
     padding: 10px;
-
   }
 
 a  {
   color: seashell;
 }
+
+
 
 .main-container {
   display: flex;
@@ -29,14 +30,29 @@ a  {
   justify-content: space-around;
   align-items: center;
   height: 700px;
-
   background-image: url(./images/img-mission-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .main-textbox {
   background-color: black;
   width: 1200px;
+
+}
+
+#featured-tea {
+  display: block;
+  flex direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.header-textbox {
+  width: 1000px
+}
+
+.image-group {
+  width: 200px;
 }
