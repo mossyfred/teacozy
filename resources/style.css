@@ -22,8 +22,9 @@ a  {
   color: seashell;
 }
 
-h2, h4 {
+h2, h4, h3 {
   padding: 10px;
+  margin: 0px 0px;
 }
 
 .main-container {
@@ -45,15 +46,13 @@ h2, h4 {
 .featured-tea {
   display: block;
   padding-top: 70px;
-
 }
 
-# pain .image-group {
+.image-group img {
   display: block;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+
 
 }
 
@@ -63,18 +62,33 @@ h2, h4 {
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
-
+  padding-top: 70px;
 }
 
 .textbox-group {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .textbox {
-    display: flex;
+  display: flex;
   flex-direction: column;
+  text-align: center;
   justify-content: center;
   background-color: black;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 20px;
+  flex-basis: 280px;
+
+}
+
+span {
+  margin: 22px 0px;
 }
