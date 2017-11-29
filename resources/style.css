@@ -60,6 +60,16 @@ h2, h4, h3 {
   text-align: center;
   flex-wrap: wrap;
   
+  
+}
+
+.image-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 1000px;
+  
 }
 
 .image-group img {
@@ -69,8 +79,7 @@ h2, h4, h3 {
   margin: auto;
   margin-bottom: 10px;
   flex-wrap: wrap;
-  
-  justify-content: space-between;
+
 }
 
 div .image {
