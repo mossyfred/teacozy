@@ -1,21 +1,31 @@
 body {
-  display: flex;
+  
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
-  text-align: center;
-  flex-direction: column;
   margin: 0;
   opacity: 0.9;
 }
 
 .header {
     display: flex;
+    position: fixed;
     justify-content: space-between;
+    background-color: black;
     align-items: center;
+    height: 70px;
+    width: 100%;
     border-bottom: 1px solid seashell;
-    padding: 10px;
+  }
+  
+  .header img {
+    height: 50px;
+    padding-left:10px;
+  }
+  
+  .header span {
+    padding: 20px 10px;
   }
 
 a  {
@@ -30,6 +40,7 @@ h2, h4, h3 {
 .main-container {
   display: flex;
   flex-direction: column;
+  text-align: center;
   justify-content: space-around;
   align-items: center;
   height: 700px;
@@ -46,16 +57,36 @@ h2, h4, h3 {
 .featured-tea {
   display: block;
   padding-top: 70px;
+  text-align: center;
+  flex-wrap: wrap;
+  
 }
 
 .image-group img {
+  height: 200px;
+  width: 300px;
   display: block;
-  flex-direction: row;
+  margin: auto;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  
   justify-content: space-between;
+}
+
+div .image {
+  display: block;
+  padding: 5px;
+  
+}
+
+.image span {
+  padding: 5px;
 }
 
 .locations {
   display: block;
+  flex-direction: column;
+  text-align: center;
   background-image: url(./images/img-locations-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -92,10 +123,12 @@ span {
 }
 
 .contact {
-  heigth: 500px;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
 }
 
 .footer{
     display: flex;
-
+    padding-left: 20px;
 }
