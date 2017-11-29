@@ -59,8 +59,9 @@ h2, h4, h3 {
   padding-top: 70px;
   text-align: center;
   flex-wrap: wrap;
-  
-  
+  width: 1000px;
+  height: 700px;
+  margin: auto;
 }
 
 .image-group {
